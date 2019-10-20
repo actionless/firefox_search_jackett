@@ -1,10 +1,9 @@
-#!/usr/bin/env bash
-set -euo pipefail
-IFS=$'\n\t'
+#!/bin/sh
+set -eu
 
 XPI_NAME=search_jackett.xpi
 
-if [[ -f "$XPI_NAME" ]] ; then
+if [ -f "$XPI_NAME" ] ; then
 	rm "$XPI_NAME"
 fi
 #7z a "$XPI_NAME" manifest.json background.js icons

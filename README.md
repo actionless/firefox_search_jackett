@@ -7,8 +7,15 @@ Good and easy example of firefox search extension using [`chrome_settings_overri
 
 ## configuration
 
-You can edit Jackett URL in `./manifest.json`.
+You can edit Jackett URL or customize name in `./manifest.json`.
 
+Icons can be just replaced in `./icons/` directory before the build.
+
+
+## dependencies
+
+- `sh`
+- `7z`
 
 ## build
 
