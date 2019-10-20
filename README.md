@@ -5,6 +5,18 @@ Search provider for [Jackett](https://github.com/Jackett/Jackett) (listening HTT
 Good and easy example of firefox search extension using [`chrome_settings_overrides`](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides).
 
 
+## configuration
+
+You can edit Jackett URL in `./manifest.json`.
+
+
 ## build
 
 To build an extension just run `./build.sh`. That will generate `.xpi` extension in the current directory.
+
+
+## usage
+
+1) sign the addon: https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/#signing-your-addons
+2) open [about:addons](about:addons), "Install add-on from file..."
+3) enjoy it
