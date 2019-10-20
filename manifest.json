@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "search_jackett",
+	"version": "0.1",
+	"description": "Search Jackett",
+
+	"icons": {
+		"48": "icons/icon.png",
+		"96": "icons/icon@2x.png"
+	},
+
+	"chrome_settings_overrides": {
+	  "search_provider": {
+		"name": "Search Jackett",
+		"search_url": "https://127.0.0.1:9118/UI/Dashboard#search={searchTerms}&tracker=&category=",
+		"keyword": "j",
+		"favicon_url": "https://127.0.0.1:9118/favicon.ico?"
+	  }
+	}
+
+}
