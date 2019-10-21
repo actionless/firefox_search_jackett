@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "search_jackett",
-	"version": "0.1",
+	"version": "0.2",
 	"description": "Search Jackett",
 
 	"icons": {
@@ -12,9 +12,9 @@
 	"chrome_settings_overrides": {
 	  "search_provider": {
 		"name": "Search Jackett",
-		"search_url": "https://127.0.0.1:9118/UI/Dashboard#search={searchTerms}&tracker=&category=",
+		"search_url": "https://jackett/UI/Dashboard#search={searchTerms}&tracker=&category=",
 		"keyword": "j",
-		"favicon_url": "https://127.0.0.1:9118/favicon.ico?"
+		"favicon_url": "https://jackett/favicon.ico?"
 	  }
 	}
 
